@@ -1,0 +1,11 @@
+module Components
+
+singleton Theme 1.0 Theme.qml
+singleton Utils 1.0 Utils.qml
+
+Badge 1.0 Badge.qml
+Box 1.0 Box.qml
+Button 1.0 Button.qml
+Divider 1.0 Divider.qml
+Switch 1.0 Switch.qml
+Typography 1.0 Typography.qml

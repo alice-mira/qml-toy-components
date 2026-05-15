@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Components/qmldir</file>
+        <file>Components/Button.qml</file>
+        <file>Components/Theme.qml</file>
+        <file>Components/Box.qml</file>
+        <file>Components/Typography.qml</file>
+        <file>Components/Switch.qml</file>
+        <file>Components/Utils.qml</file>
+        <file>Components/Divider.qml</file>
+        <file>Components/Badge.qml</file>
+    </qresource>
+</RCC>
