@@ -149,4 +149,12 @@ QtObject {
 
         return color
     }
+
+    function fgColor(color) {
+        return Theme.mode === Theme.Mode.Dark ? lightColor(color) : darkColor(color)
+    }
+
+    function bgColor(color) {
+        return Theme.mode === Theme.Mode.Dark ? darkColor(color) : lightColor(color)
+    }
 }

@@ -119,5 +119,46 @@ Window {
                 }
             }
         }
+
+        Divider {
+            orientation: Divider.Orientation.Vertical
+        }
+
+        Item {
+            Layout.fillWidth: true
+            Layout.fillHeight: true
+            ColumnLayout {
+                anchors.centerIn: parent
+
+                Chip {
+                    text: "primary"
+                }
+
+                Chip {
+                    text: "secondary"
+                    color: Theme.secondaryColor
+                }
+
+                Chip {
+                    text: "basic"
+                    color: Theme.basicColor
+                }
+
+                Chip {
+                    text: "red"
+                    color: Theme.red
+                }
+
+                Chip {
+                    text: "orange"
+                    color: Theme.orange
+                }
+
+                Chip {
+                    text: "purple"
+                    color: Theme.green
+                }
+            }
+        }
     }
 }

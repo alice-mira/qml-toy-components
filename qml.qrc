@@ -10,5 +10,6 @@
         <file>Components/Utils.qml</file>
         <file>Components/Divider.qml</file>
         <file>Components/Badge.qml</file>
+        <file>Components/Chip.qml</file>
     </qresource>
 </RCC>

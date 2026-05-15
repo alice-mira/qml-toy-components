@@ -12,8 +12,6 @@ Item {
         id: textItem
         anchors.centerIn: parent
         text: parent.text
-        color: {
-            return Theme.mode === Theme.Mode.Dark ? Theme.lightColor(parent.color) : Theme.darkColor(parent.color)
-        }
+        color: Theme.fgColor(parent.color)
     }
 }
